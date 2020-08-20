@@ -19,8 +19,8 @@
 ###### &emsp;tensorflow == 1.10.0<br>
 
 #### Formula Derivation
-* E_R(\theta)
-E_R(\theta)=\sum_{m}\delta_m(\theta_m-\Delta )^2+\sum_{m}\delta_m(\theta_m-\theta_{m+1})^2
+* $E_R(\theta)$<br>
+$E_R(\theta)=\sum_{m}\delta_m(\theta_m-\Delta )^2+\sum_{m}\delta_m(\theta_m-\theta_{m+1})^2$
 
 #### References
 ##### Author&ensp;:&ensp;Kaiming He, Huiwen Chang, Jian Sun<br>
