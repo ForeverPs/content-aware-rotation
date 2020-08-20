@@ -13,11 +13,10 @@
 #### Dependency
 
 ###### &emsp;Python&ensp;3.6 or newer<br>
-###### &emsp;numpy == 1.14.5<br>
 ###### &emsp;pillow == 5.1.0<br>
+###### &emsp;numpy == 1.14.5<br>
 ###### &emsp;opencv == 4.2.0<br>
 ###### &emsp;matplotlib == 2.2.2<br>
 ###### &emsp;tensorflow == 1.10.0<br>
 
 #### Formula_derivation
-
