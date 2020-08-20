@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from lsd.pylsd.lsd import lsd
+from lsd.lsd import lsd
 
 
 def detect_lines(img_array, angle, x_len, y_len, x, y, minLen=2, M=90):
