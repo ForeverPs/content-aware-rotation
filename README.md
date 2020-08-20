@@ -19,7 +19,7 @@
 ###### &emsp;tensorflow == 1.10.0<br>
 
 #### Formula Derivation
-* ![](http://latex.codecogs.com/gif.latex?\\E_R(\theta)})<br>
+* ![](http://latex.codecogs.com/svg.latex?\\E_R(\theta)})<br>
 $E_R(\theta)=\sum_{m}\delta_m(\theta_m-\Delta )^2+\sum_{m}(\theta_m-\theta_{m+1})^2$<br>
 suppose that : \theta_{m+1}=P@\theta, then we have : <br>
 ![avatar](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg)
