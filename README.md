@@ -20,7 +20,8 @@
 
 #### Formula Derivation
 * $E_R(\theta)$<br>
-$E_R(\theta)=\sum_{m}\delta_m(\theta_m-\Delta )^2+\sum_{m}\delta_m(\theta_m-\theta_{m+1})^2$
+$E_R(\theta)=\sum_{m}\delta_m(\theta_m-\Delta )^2+\sum_{m}\delta_m(\theta_m-\theta_{m+1})^2$<br>
+suppose that : \theta_{m+1}=P*\theta
 
 #### References
 ##### Author&ensp;:&ensp;Kaiming He, Huiwen Chang, Jian Sun<br>
