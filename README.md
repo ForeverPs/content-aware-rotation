@@ -4,7 +4,7 @@
 #### Contents
 
 1. [Dependency](#Dependency)
-1. [Formula Derivation](#Formula Derivation)
+1. [Formula Derivation](#formula-derivation)
 1. [Usage](#Usage)
 1. [Results](#Results)
 1. [References](#References)
