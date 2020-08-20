@@ -4,8 +4,7 @@
 #### Contents
 
 1. [Dependency](#Dependency)
-1. [Code Architecture](#Code_Architecture)
-1. [Methods](#Methods)
+1. [Formula Derivation](#Formula_derivation)
 1. [Usage](#Usage)
 1. [Results](#Results)
 1. [References](#References)
@@ -20,6 +19,5 @@
 ###### &emsp;matplotlib == 2.2.2<br>
 ###### &emsp;tensorflow == 1.10.0<br>
 
-#### Code_Architecture
--image
+#### Formula_derivation
 
