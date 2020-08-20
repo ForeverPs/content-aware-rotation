@@ -4,7 +4,7 @@
 #### Contents
 
 1. [Dependency](#Dependency)
-1. [Formula Derivation](#Formula_derivation)
+1. [Formula Derivation](#Formula Derivation)
 1. [Usage](#Usage)
 1. [Results](#Results)
 1. [References](#References)
@@ -19,4 +19,9 @@
 ###### &emsp;matplotlib == 2.2.2<br>
 ###### &emsp;tensorflow == 1.10.0<br>
 
-#### Formula_derivation
+#### Formula Derivation
+
+#### References
+
+##### Author&ensp;:&ensp;Kaiming He, Huiwen Chang, Jian Sun<br>
+* ###### &ensp;[Content-Aware Rotation----ICCV 2013](http://kaiminghe.com/publications/iccv13car.pdf)<br>
