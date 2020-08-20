@@ -20,6 +20,7 @@
 
 #### Formula Derivation
 * ![](http://latex.codecogs.com/gif.latex?\\E_R(\theta)}) <br>
+<img src="https://latex.codecogs.com/png.latex? E_R(\theta)">
 $E_R(\theta)=\sum_{m}\delta_m(\theta_m-\Delta )^2+\sum_{m}(\theta_m-\theta_{m+1})^2$<br>
 suppose that : \theta_{m+1}=P@\theta, then we have : <br>
 ![eq3](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg)
