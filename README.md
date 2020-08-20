@@ -19,7 +19,7 @@
 ###### &emsp;matplotlib == 2.2.2<br>
 ###### &emsp;tensorflow == 1.10.0<br>
 
-#### Formula Derivation
+#### Formula_Derivation
 
 #### References
 
