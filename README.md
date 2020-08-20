@@ -4,11 +4,11 @@
 #### Contents
 
 1. [Dependency](#Dependency)
-1. [Code Architecture](#Code Architecture)
+1. [Code Architecture](#Code_Architecture)
 1. [Methods](#Methods)
 1. [Usage](#Usage)
 1. [Results](#Results)
-1. [References](#references)
+1. [References](#References)
 ---
 
 #### Dependency
