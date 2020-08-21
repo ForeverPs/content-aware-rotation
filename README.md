@@ -19,10 +19,11 @@
 ###### &emsp;tensorflow == 1.10.0<br>
 
 #### Formula Derivation
-* ![](http://latex.codecogs.com/gif.latex?\\E_R(\theta)}) <br>
-![](http://latex.codecogs.com/gif.latex?\\E_R(\theta)=\sum_{m}\delta_m(\theta_m-\Delta )^2+\sum_{m}(\theta_m-\theta_{m+1})^2)<br>
-suppose that : \theta_{m+1}=P@\theta, then we have : <br>
-![eq3](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg)
+* Rotation Manipulation ![eq1](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq1.jpg) <br>
+![eq2](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq2.jpg)
+suppose that : ![eq3](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg), then we have : <br>
+![eq4](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq4.jpg)
+further, we can get the derivative : ![eq5](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq5.jpg)
 
 
 #### References
