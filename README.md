@@ -41,7 +41,8 @@ further, we can get the derivative : ![eq18](https://github.com/ForeverPs/conten
 * Optimization
 * Step 1 : Fix θ solve for V <br>
 Sparse Linear System : ![eq19](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq19.jpg)
-V is the minimum point of total energy above, thus, let : ![eq20](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq20.jpg)
+V is the minimum point of total energy above, thus, let : <br>
+![eq20](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq20.jpg)<br>
 we can get the solution for V. <br>
 * Step 2 : Fix V solve for θ <br>
 
