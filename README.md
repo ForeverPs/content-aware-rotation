@@ -45,27 +45,33 @@ V is the minimum point of total energy above, thus, let : <br>
 ![eq20](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq20.jpg)<br>
 we can get the solution for V. <br>
 * Step 2 : Fix V solve for θ <br>
-** Part 1 ** : Fix Φ, update θ<br>
+**Part 1** : Fix Φ, update θ<br>
 ![eq21](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq21.jpg)<br>
 suppose that : ![eq22](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq22.jpg)<br>
 we have : ![eq23](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq23.jpg)<br>
 let : ![eq24](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq24.jpg)<br>
 by solving a sparse linear system, we can get the solution of θ : <br>
 ![eq25](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq25.jpg)<br>
-
-** Part 2 ** : Fix θ, update Φ<br>
+**Part 2** : Fix θ, update Φ<br>
 ![eq26](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq26.jpg)<br>
 the solution of Φ can be easily approximately reached by enumeration based on iteration methods(increase β gradually).
 
 #### Usage
 * How to Use : download whole project and run **main.py**
-* folder ep : images which are used for formula derivation.
+* folder ep : images which are used for formula derivation and some results.
 * folder image : images which are used in original paper.
 * folder lsd : line segment detection algorithm in python version.
 * warp_mesh.py : image warping method realized by embedded function in tensorflow.
 
+#### Results
+* [**The Leaning Tower of Pisa 5.5°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image7.jpg)<br>
+<img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/pisa_tower.jpg /><br><br>
 
+* [**Palace Tower -6.1°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image2.png)<br>
+<img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/palace_tower.jpg /><br><br>
 
+* [**House Building -5.8°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image1.png)<br>
+<img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/house.jpg /><br><br>
 
 
 #### References
