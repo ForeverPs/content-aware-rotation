@@ -39,6 +39,11 @@ further, we can get the derivative : ![eq15](https://github.com/ForeverPs/conten
 further, we can get the derivative : ![eq18](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq18.jpg) <br>
 
 * Optimization
+* Step 1 : Fix theta solve for V <br>
+Sparse Linear System <br>
+![eq19](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq19.jpg)
+V is the minimum point of total energy above, thus, let : ![eq20](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq20.jpg)
+we can get the solution for V. 
 
 
 
