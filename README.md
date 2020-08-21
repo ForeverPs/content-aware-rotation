@@ -80,3 +80,5 @@ the solution of Φ can be easily approximately reached by enumeration based on i
 #### References
 ##### Author&ensp;:&ensp;Kaiming He, Huiwen Chang, Jian Sun<br>
 * ###### &ensp;[Content-Aware Rotation----ICCV 2013](http://kaiminghe.com/publications/iccv13car.pdf)<br>
+##### Matlab Version<br>
+* ###### &ensp;[iRotate](https://github.com/yuchien302/iRotate)<br>
