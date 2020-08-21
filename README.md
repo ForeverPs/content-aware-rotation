@@ -76,6 +76,9 @@ the solution of Φ can be easily approximately reached by enumeration based on i
 * [**House Building  -5.8°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image1.png)<br>
 <img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/house.jpg /><br><br>
 
+* [**The Oriental Pearl Tower  1.8°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image8.jpg)<br>
+<img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/shanghai.jpg /><br><br>
+
 
 #### References
 ##### Author&ensp;:&ensp;Kaiming He, Huiwen Chang, Jian Sun<br>
