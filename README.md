@@ -19,7 +19,6 @@
 ###### &emsp;tensorflow == 1.10.0<br>
 
 #### Formula Derivation
----
 * Rotation Manipulation ![eq1](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq1.jpg) <br>
 ![eq2](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq2.jpg)
 suppose that : ![eq3](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg), then we have : ![eq4](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq4.jpg)
@@ -38,7 +37,7 @@ further, we can get the derivative : ![eq15](https://github.com/ForeverPs/conten
 * Boundary Preservation ![eq16](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq16.jpg) <br>
 ![eq17](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq17.jpg)
 further, we can get the derivative : ![eq18](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq18.jpg) <br>
----
+
 * Optimization
 
 
