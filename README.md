@@ -19,28 +19,31 @@
 ###### &emsp;tensorflow == 1.10.0<br>
 
 #### Formula Derivation
-* Rotation Manipulation ![eq1](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq1.jpg) <br>
-![eq2](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq2.jpg)
-suppose that : ![eq3](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg), then we have : ![eq4](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq4.jpg)
-further, we can get the derivative : ![eq5](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq5.jpg) <br>
+* Rotation Manipulation ![eq1](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq1.jpg)<br>
+![eq2](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq2.jpg)<br>
+suppose that : ![eq3](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg),<br>
+then we have : ![eq4](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq4.jpg)<br>
+further, we can get the derivative : ![eq5](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq5.jpg)<br>
 
-* Line Preservation ![eq6](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq6.jpg) <br>
-![eq7](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq7.jpg)
-suppose that : ![eq8](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq8.jpg), then we have : ![eq9](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq9.jpg)
-further, we can get the derivative : ![eq10](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq10.jpg) <br>
+* Line Preservation ![eq6](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq6.jpg)<br>
+![eq7](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq7.jpg)<br>
+suppose that : ![eq8](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq8.jpg),<br>
+then we have : ![eq9](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq9.jpg)<br>
+further, we can get the derivative : ![eq10](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq10.jpg)<br>
 
-* Shape Preservation ![eq11](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq11.jpg) <br>
-![eq12](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq12.jpg)
-suppose that : ![eq13](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq13.jpg), then we have : ![eq14](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq14.jpg)
-further, we can get the derivative : ![eq15](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq15.jpg) <br>
+* Shape Preservation ![eq11](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq11.jpg)<br>
+![eq12](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq12.jpg)<br>
+suppose that : ![eq13](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq13.jpg),<br>
+then we have : ![eq14](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq14.jpg)<br>
+further, we can get the derivative : ![eq15](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq15.jpg)<br>
 
-* Boundary Preservation ![eq16](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq16.jpg) <br>
-![eq17](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq17.jpg)
-further, we can get the derivative : ![eq18](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq18.jpg) <br>
+* Boundary Preservation ![eq16](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq16.jpg)<br>
+![eq17](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq17.jpg)<br>
+further, we can get the derivative : ![eq18](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq18.jpg)<br>
 
 * Optimization
 * Step 1 : Fix θ solve for V <br>
-Sparse Linear System : ![eq19](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq19.jpg)
+Sparse Linear System : ![eq19](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq19.jpg)<br>
 V is the minimum point of total energy above, thus, let : <br>
 ![eq20](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq20.jpg)<br>
 we can get the solution for V. <br>
@@ -54,23 +57,23 @@ by solving a sparse linear system, we can get the solution of θ : <br>
 ![eq25](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq25.jpg)<br>
 **Part 2** : Fix θ, update Φ<br>
 ![eq26](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq26.jpg)<br>
-the solution of Φ can be easily approximately reached by enumeration based on iteration methods(increase β gradually).
+the solution of Φ can be easily approximately reached by enumeration based on iteration methods(increase β gradually).<br>
 
 #### Usage
-* How to Use : download whole project and run **main.py**
+* How to Use : download the whole project and run **main.py**
 * folder ep : images which are used for formula derivation and some results.
 * folder image : images which are used in original paper.
 * folder lsd : line segment detection algorithm in python version.
 * warp_mesh.py : image warping method realized by embedded function in tensorflow.
 
 #### Results
-* [**The Leaning Tower of Pisa 5.5°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image7.jpg)<br>
+* [**The Leaning Tower of Pisa  5.5°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image7.jpg)<br>
 <img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/pisa_tower.jpg /><br><br>
 
-* [**Palace Tower -6.1°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image2.png)<br>
+* [**Palace Tower  -6.1°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image2.png)<br>
 <img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/palace_tower.jpg /><br><br>
 
-* [**House Building -5.8°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image1.png)<br>
+* [**House Building  -5.8°**](https://github.com/ForeverPs/content-aware-rotation/blob/master/image/image1.png)<br>
 <img src= https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/house.jpg /><br><br>
 
 
