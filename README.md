@@ -20,7 +20,7 @@
 
 #### Formula Derivation
 * Rotation Manipulation ![eq1](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq1.jpg)<br>
-![eq2](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq2.jpg)<br>
+![eq2](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq2.jpg, width="60%")<br>
 suppose that : ![eq3](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq3.jpg),<br>
 then we have : ![eq4](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq4.jpg)<br>
 further, we can get the derivative : ![eq5](https://github.com/ForeverPs/content-aware-rotation/blob/master/eq/eq5.jpg)<br>
