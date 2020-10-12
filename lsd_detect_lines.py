@@ -66,11 +66,17 @@ def detect_lines(img_array, angle, x_len, y_len, x, y, minLen=2, M=90):
 
 def intersect(pt1, pt2, pt3, pt4):
     # return the intersection of pt1 - pt2 and pt3 - pt4
-    p_x_num = (pt1[0] * pt2[1]) * (pt3[0] - pt4[0]) - (pt1[0] - pt2[0]) * (pt3[0] * pt4[1] - pt3[1] * pt4[0])
-    p_y_num = (pt1[0] * pt2[1]) * (pt3[1] - pt4[1]) - (pt1[1] - pt2[1]) * (pt3[0] * pt4[1] - pt3[1] * pt4[0])
-    p_den = (pt1[0] - pt2[0]) * (pt3[1] - pt4[1]) - (pt1[1] - pt2[1]) * (pt3[0] - pt4[0])
-    p = [p_x_num / (p_den + 1e-10), p_y_num / (p_den + 1e-10)]
+    a0 = pt1[1] - pt2[1]
+    b0 = pt2[0] - pt1[0]
+    c0 = pt1[0] * pt2[1] - pt2[0] * pt1[1]
 
-    if min(pt1[0], pt2[0]) <= p[0] <= max(pt1[0], pt2[0]) and min(pt1[1], pt2[1]) <= p[1] <= max(pt1[1], pt2[1]):
-        return True, p
-    return False, None
+    a1 = pt3[1] - pt4[1]
+    b1 = pt4[0] - pt3[0]
+    c1 = pt3[0] * pt4[1] - pt4[0] * pt3[1]
+
+    d = a0 * b1 - a1 * b0
+    if d == 0:
+        return False, None
+    x = (b0 * c1 - b1 * c0) / d
+    y = (a1 * c0 - a0 * c1) / d
+    return True, [x, y]
