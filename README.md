@@ -1,6 +1,6 @@
 # Content-Aware-Rotation
 * Reproduction of Kaiming He's Paper [**Content-Aware Rotation**](http://kaiminghe.com/publications/iccv13car.pdf) on ICCV 2013.<br>
-* I just test this project on **Windows**, there may be something wrong on Linux system.<br>
+* I just test this project on **Windows 10**, there may be something wrong on Linux system.<br>
 ---
 #### Contents
 
